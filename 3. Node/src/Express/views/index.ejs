@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= bla %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <ul>
+        <% list.forEach(function(le) { %>
+            <li><%= le %></li>
+        <% }); %>
+    </ul>
+    <script type="text/javascript">
+        console.log('Pozdrav iz HTMLa');
+    </script>
+  </body>
+</html>

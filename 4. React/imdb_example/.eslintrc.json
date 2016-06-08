@@ -1,0 +1,14 @@
+module.exports = {
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": "airbnb",
+  "rules": {
+    "no-use-before-define": 0,
+    "code": 120,
+  }
+}

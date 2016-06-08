@@ -1,0 +1,109 @@
+.movieImage {
+  height: 300;
+  overflow: hidden;
+}
+.historyImage {
+  max-height: 150px;
+}
+.history-title-wrapper {
+  width: 98%;
+  margin-left: 1%;
+}
+.data-wrapper {
+  width: 95%;
+  margin-left: 2%;
+}
+.left-offset-5 {
+  margin-left: 5px;
+}
+.video-wrapper {
+  width: 560px;
+  height: 315px;
+}
+.card-image > img {
+  height: 280px;
+}
+.card-content > p {
+  height: 45px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 320px) {
+  .card-image > img {
+    height: 280px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 460px) {
+  .card-image > img {
+    height: 270px;
+  }
+}
+@media only screen and (min-width: 461px) and (max-width: 510px) {
+  .card-image > img {
+    height: 325px;
+  }
+}
+@media only screen and (min-width: 511px) and (max-width: 590px) {
+  .card-image > img {
+    height: 360px;
+  }
+}
+@media only screen and (min-width: 591px) and (max-width: 640px) {
+  .card-image > img {
+    height: 115px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 700px) {
+  .card-image > img {
+    height: 130px;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 767px) {
+  .card-image > img {
+    height: 145px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-image > img {
+    height: 210px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1124px) {
+  .card-image > img {
+    height: 240px;
+  }
+}
+@media only screen and (min-width: 1125px) and (max-width: 1224px) {
+  .card-image > img {
+    height: 255px;
+  }
+}
+@media only screen and (min-width: 1225px) and (max-width: 1280px) {
+  .card-image > img {
+    height: 285px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1390px) {
+  .card-image > img {
+    height: 310px;
+  }
+}
+@media only screen and (min-width: 1391px) and (max-width: 1600px) {
+  .card-image > img {
+    height: 365px;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1600px) {
+  .card-image > img {
+    height: 365px;
+  }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1823px) {
+  .card-image > img {
+    height: 420px;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .card-image > img {
+    height: 450px;
+  }
+}
